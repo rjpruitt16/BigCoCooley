@@ -32,7 +32,6 @@ a {
 
 .btn::hover {
   background: white;
-  background-color: yellowgreen;
 }
 
 nav {
@@ -236,6 +235,9 @@ nav {
     }
   }
   @keyframes fill {
+    from {
+      fill: transparent;
+    }
     to {
       fill: white;
     }
@@ -245,7 +247,7 @@ nav {
 .page2:hover {
   #animated-tag {
     mask {
-      animation: fill 0.5s ease forwards 3.3s;
+      animation: fill 0.5s ease-in forwards 3.3s;
     }
 
     path:nth-child(2) {
