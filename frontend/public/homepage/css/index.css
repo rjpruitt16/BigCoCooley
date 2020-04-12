@@ -1,0 +1,453 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.page1,
+.page2,
+.page3 {
+  height: 100vh;
+  width: 100%;
+}
+
+.Logo {
+  margin-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn {
+  border: 1.5px solid black;
+  border-radius: 1.2rem;
+  padding: 0.75rem 1.25rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: white !important;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+}
+
+nav ul {
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+nav ul li {
+  -webkit-box-flex: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+}
+
+nav ul #LogoPage1 {
+  -webkit-box-flex: 10;
+  -ms-flex-positive: 10;
+  flex-grow: 10;
+  margin-left: 1rem;
+}
+
+nav ul #CornellLogo {
+  width: 250px;
+  height: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+nav ul #CornellLogo img {
+  width: 100%;
+  height: 100%;
+}
+
+.page1 {
+  background: linear-gradient(
+      144.79deg,
+      #ff908c 14.74%,
+      rgba(255, 255, 255, 0) 75.1%,
+      rgba(255, 255, 255, 0) 75.1%
+    ),
+    #ff4640;
+}
+
+.page1 .page-content {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page1 .page-content #images {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+
+.page1 .page-content #images #suit-guy {
+  width: 100%;
+  height: 90%;
+  background-image: url("../img/SuitGuy.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -100px;
+  bottom: 0px;
+  z-index: 2;
+}
+
+.page1 .page-content #images #blob1 {
+  width: 80%;
+  height: 35%;
+  background-image: url("../img/Orange-Blob.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: 0;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+  -webkit-transform: rotate(-6.33deg);
+  transform: rotate(-6.33deg);
+}
+
+.page1 .page-content #images #blob2 {
+  width: 80%;
+  height: 50%;
+  background-image: url("../img/White-Blob.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: -150px;
+  -webkit-transform: rotate(-24.33deg);
+  transform: rotate(-24.33deg);
+}
+
+.page1 .page-content #images #blob3 {
+  width: 80%;
+  height: 35%;
+  background-image: url("../img/Orange-Blob.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: absolute;
+  bottom: 0px;
+  right: 500px;
+  z-index: 1;
+}
+
+.page1 .page-content #images #blob4 {
+  width: 80%;
+  height: 50%;
+  background-image: url("../img/White-Blob.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  z-index: 0;
+  position: absolute;
+  bottom: 150px;
+  right: 550px;
+  -webkit-transform: rotate(-24.33deg);
+  transform: rotate(-24.33deg);
+  z-index: 0;
+}
+
+.page1 .page-content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 1rem;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-transform: translate(-100px, -100px);
+  transform: translate(-100px, -100px);
+}
+
+.page1 .page-content .title h1 {
+  font-size: 1.5em;
+  margin-left: 1rem;
+}
+
+.page2 {
+  background: #000000;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.page2 #building {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+
+.page2 #building img {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 20%;
+  left: 25%;
+}
+
+.page2 #product-description {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.page2 #product-description h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.page2 #animated-tag path:nth-child(2) {
+  stroke-dasharray: 492.1375427246094;
+  stroke-dashoffset: 492.1375427246094;
+}
+
+.page2 #animated-tag path:nth-child(3) {
+  stroke-dasharray: 400.3002624511719;
+  stroke-dashoffset: 400.3002624511719;
+}
+
+.page2 #animated-tag path:nth-child(4) {
+  stroke-dasharray: 377.3002624511719;
+  stroke-dashoffset: 377.3002624511719;
+}
+
+.page2 #animated-tag path:nth-child(5) {
+  stroke-dasharray: 403.8088073730469;
+  stroke-dashoffset: 403.8088073730469;
+}
+
+.page2 #animated-tag path:nth-child(6) {
+  stroke-dasharray: 377.3002624511719;
+  stroke-dashoffset: 377.3002624511719;
+}
+
+@-webkit-keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+.page2:hover #animated-tag mask {
+  -webkit-animation: fill 0.5s ease-in forwards 3.3s;
+  animation: fill 0.5s ease-in forwards 3.3s;
+}
+
+.page2:hover #animated-tag path:nth-child(2) {
+  -webkit-animation: line-anim 3s ease forwards 0.3s;
+  animation: line-anim 3s ease forwards 0.3s;
+}
+
+.page2:hover #animated-tag path:nth-child(3) {
+  -webkit-animation: line-anim 3s ease forwards 0.3s;
+  animation: line-anim 3s ease forwards 0.3s;
+}
+
+.page2:hover #animated-tag path:nth-child(4) {
+  -webkit-animation: line-anim 3s ease forwards 0.6s;
+  animation: line-anim 3s ease forwards 0.6s;
+}
+
+.page2:hover #animated-tag path:nth-child(5) {
+  -webkit-animation: line-anim 3s ease forwards 0.9;
+  animation: line-anim 3s ease forwards 0.9;
+}
+
+.page2:hover #animated-tag path:nth-child(6) {
+  -webkit-animation: line-anim 3s ease forwards 1.5s;
+  animation: line-anim 3s ease forwards 1.5s;
+}
+
+.page3 {
+  background: #ff581f;
+  overflow: hidden;
+}
+
+.page3 .card {
+  position: relative;
+  width: 300px;
+  height: 85%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.page3 .card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page3 .card .front,
+.page3 .card .back {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  -webkit-transition: -webkit-transform 0.6s linear;
+  transition: -webkit-transform 0.6s linear;
+  transition: transform 0.6s linear;
+  transition: transform 0.6s linear, -webkit-transform 0.6s linear;
+}
+
+.page3 .card .front,
+.page3 .card img {
+  height: 100%;
+}
+
+.page3 .card .front {
+  -webkit-transform: perspective(600px) rotateY(0deg);
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.page3 .card .back {
+  background: #f1f1f1;
+  -webkit-transform: perspective(600px) rotateY(180deg);
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.page3 .card .back-content {
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.page3 .card .back-content h3 {
+  margin: 0.5rem;
+}
+
+.page3 .card:hover > .front {
+  -webkit-transform: perspective(600px) rotateY(-180deg);
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.page3 .card:hover > .back {
+  -webkit-transform: perspective(600px) rotateY(0deg);
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.page3 .item1 {
+  grid-area: card1;
+}
+
+.page3 .item2 {
+  grid-area: card2;
+}
+
+.page3 .item3 {
+  grid-area: card3;
+}
+
+.page3 .item4 {
+  grid-area: card4;
+}
+
+.page3 .item5 {
+  grid-area: card5;
+}
+
+.page3 .cards-grid {
+  width: 100%;
+  height: 90vh;
+  display: -ms-grid;
+  display: grid;
+  grid: "card1 _ card2" "card3 card4 card5";
+}
+
+.page3 .resume-link:hover {
+  text-decoration: underline;
+  color: #ff908c;
+}
+
+@media (max-width: 900px) {
+  #suit-guy {
+    min-width: 0vh;
+    max-height: 0vh;
+  }
+}
+/*# sourceMappingURL=index.css.map */

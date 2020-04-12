@@ -1,0 +1,29 @@
+[debug] [2020-04-11T18:57:12.468Z] ----------------------------------------------------------------------
+[debug] [2020-04-11T18:57:12.470Z] Command:       /usr/local/bin/firebase /Users/rahmijamalpruitt/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2020-04-11T18:57:12.470Z] CLI Version:   7.11.0
+[debug] [2020-04-11T18:57:12.470Z] Platform:      darwin
+[debug] [2020-04-11T18:57:12.470Z] Node Version:  v10.17.0
+[debug] [2020-04-11T18:57:12.475Z] Time:          Sat Apr 11 2020 14:57:12 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-04-11T18:57:12.475Z] ----------------------------------------------------------------------
+[debug] [2020-04-11T18:57:12.475Z] 
+[debug] [2020-04-11T18:57:12.483Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-11T18:57:12.483Z] > authorizing via signed-in user
+[debug] [2020-04-11T18:57:12.483Z] [iam] checking project cooley-bigco-2020 for permissions ["firebase.projects.get"]
+[debug] [2020-04-11T18:57:12.484Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-11T18:57:12.484Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-11T18:57:12.608Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-11T18:57:12.653Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cooley-bigco-2020:testIamPermissions  
+
+[debug] [2020-04-11T18:57:12.892Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-11T18:57:12.893Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cooley-bigco-2020  
+ 
+[debug] [2020-04-11T18:57:13.092Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/rahmijamalpruitt/Documents/LetsGraduate/Spring/BigCo/CooleyProduct/frontend'...
+[info] 
+[debug] [2020-04-11T18:57:13.093Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cooley-bigco-2020/webApps/-/config  
+ 
+[debug] [2020-04-11T18:57:13.644Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public/
+[info] ✔  hosting: Local server: http://localhost:5000
